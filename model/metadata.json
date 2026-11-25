@@ -1,0 +1,187 @@
+{
+  "features": [
+    "regional_cluster",
+    "province",
+    "beneficiary_category",
+    "protein_type",
+    "delivery_transport_mode",
+    "kitchen_daily_capacity_portions",
+    "delivery_distance_km",
+    "transit_time_minutes"
+  ],
+  "options": {
+    "regional_cluster": [
+      "Daerah Pedesaan & Kepulauan",
+      "Jawa Metropolitan",
+      "Luar Jawa Urban",
+      "Wilayah 3T Perbatasan & Pedalaman"
+    ],
+    "cluster_to_provinces": {
+      "Daerah Pedesaan & Kepulauan": [
+        "Aceh",
+        "Bali",
+        "Bangka Belitung",
+        "Banten",
+        "Bengkulu",
+        "DI Yogyakarta",
+        "DKI Jakarta",
+        "Gorontalo",
+        "Jambi",
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Jawa Timur",
+        "Kalimantan Barat",
+        "Kalimantan Selatan",
+        "Kalimantan Tengah",
+        "Kalimantan Timur",
+        "Kalimantan Utara",
+        "Kepulauan Riau",
+        "Lampung",
+        "Maluku",
+        "Maluku Utara",
+        "Nusa Tenggara Barat",
+        "Nusa Tenggara Timur",
+        "Papua",
+        "Papua Barat",
+        "Papua Barat Daya",
+        "Papua Pegunungan",
+        "Papua Selatan",
+        "Papua Tengah",
+        "Riau",
+        "Sulawesi Barat",
+        "Sulawesi Selatan",
+        "Sulawesi Tengah",
+        "Sulawesi Tenggara",
+        "Sulawesi Utara",
+        "Sumatera Barat",
+        "Sumatera Selatan",
+        "Sumatera Utara"
+      ],
+      "Jawa Metropolitan": [
+        "Banten",
+        "DI Yogyakarta",
+        "DKI Jakarta",
+        "Jawa Barat",
+        "Jawa Tengah",
+        "Jawa Timur"
+      ],
+      "Luar Jawa Urban": [
+        "Aceh",
+        "Bali",
+        "Bangka Belitung",
+        "Bengkulu",
+        "Gorontalo",
+        "Jambi",
+        "Kalimantan Barat",
+        "Kalimantan Selatan",
+        "Kalimantan Tengah",
+        "Kalimantan Timur",
+        "Kepulauan Riau",
+        "Lampung",
+        "Maluku Utara",
+        "Nusa Tenggara Barat",
+        "Riau",
+        "Sulawesi Barat",
+        "Sulawesi Selatan",
+        "Sulawesi Tengah",
+        "Sulawesi Tenggara",
+        "Sulawesi Utara",
+        "Sumatera Barat",
+        "Sumatera Selatan",
+        "Sumatera Utara"
+      ],
+      "Wilayah 3T Perbatasan & Pedalaman": [
+        "Aceh",
+        "Bangka Belitung",
+        "Bengkulu",
+        "Gorontalo",
+        "Jambi",
+        "Kalimantan Barat",
+        "Kalimantan Selatan",
+        "Kalimantan Tengah",
+        "Kalimantan Utara",
+        "Kepulauan Riau",
+        "Lampung",
+        "Maluku",
+        "Maluku Utara",
+        "Nusa Tenggara Barat",
+        "Nusa Tenggara Timur",
+        "Papua",
+        "Papua Barat",
+        "Papua Barat Daya",
+        "Papua Pegunungan",
+        "Papua Selatan",
+        "Papua Tengah",
+        "Sulawesi Barat",
+        "Sulawesi Tengah",
+        "Sulawesi Tenggara",
+        "Sulawesi Utara",
+        "Sumatera Barat",
+        "Sumatera Selatan"
+      ]
+    },
+    "beneficiary_category": [
+      "Balita & Ibu Hamil Posyandu",
+      "Santri Pondok Pesantren",
+      "Siswa SD / Madrasah Ibtidaiyah",
+      "Siswa SMA / SMK / MA",
+      "Siswa SMP / MTs"
+    ],
+    "protein_type": [
+      "Daging Ayam Broiler",
+      "Daging Sapi / Kerbau",
+      "Ikan Kembung / Lele / Bandeng",
+      "Susu Pasteurisasi Segar",
+      "Telur Ayam Boiler"
+    ],
+    "delivery_transport_mode": [
+      "Jalan Kaki / Gerobak",
+      "Mobil Pickup Termal",
+      "Mobil Van Tertutup",
+      "Motor Listrik / Roda Tiga Box",
+      "Perahu Ketinting Sungai / Laut"
+    ]
+  },
+  "cluster_stats": [
+    {
+      "regional_cluster": "Luar Jawa Urban",
+      "mean_temp": 65.92306061890632,
+      "median_temp": 67.3,
+      "mean_spoilage": 1.4332259431962695,
+      "mean_waste": 13.04501907587961,
+      "count": 2359
+    },
+    {
+      "regional_cluster": "Jawa Metropolitan",
+      "mean_temp": 65.85657397107897,
+      "median_temp": 67.2,
+      "mean_spoilage": 1.5197530589543937,
+      "mean_waste": 13.028476084538376,
+      "count": 4495
+    },
+    {
+      "regional_cluster": "Daerah Pedesaan & Kepulauan",
+      "mean_temp": 60.945484221980415,
+      "median_temp": 63.9,
+      "mean_spoilage": 3.10211316648531,
+      "mean_waste": 13.482916213275299,
+      "count": 4595
+    },
+    {
+      "regional_cluster": "Wilayah 3T Perbatasan & Pedalaman",
+      "mean_temp": 55.36002578981302,
+      "median_temp": 58.4,
+      "mean_spoilage": 4.881115409413281,
+      "mean_waste": 14.227917472598323,
+      "count": 1551
+    }
+  ],
+  "metrics": {
+    "total_data": 13000,
+    "total_provinces": 38,
+    "r2_temp": 87.72,
+    "medae_temp": 1.44,
+    "r2_spoil": 96.76,
+    "medae_spoil": 0.0
+  }
+}
